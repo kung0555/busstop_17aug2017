@@ -127,6 +127,8 @@ public class loaddata extends AppCompatActivity {
             //NO Data and Not Internet
             Toast.makeText(loaddata.this, "Cannot Work beacuse no Data and Internet",
                     Toast.LENGTH_LONG).show();
+        } else {
+            refreshSQLite();
         }
     }
 
